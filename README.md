@@ -5,5 +5,5 @@ It will convert the X and Ys to manual_pick.star files for simple conversion of 
 To use run program: 
 python script_name   cs_file    subscript  Xnormalization_factor   Ynormalization_factor
 
-Example for K3: python NUMPY_Whisperer.py P54_J83_particles_exported.cs manualpick 5760 409
+Example for K3: python XYnumpy2star.py P54_J83_particles_exported.cs manualpick 5760 409
   
