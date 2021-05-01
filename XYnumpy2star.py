@@ -38,6 +38,7 @@ for parti in particles:
 	noSlashes = parti.split("/")
 	noUndies = noSlashes[-1].split("_")
 	filename = str(noUndies[1])+"_"+str(noUndies[2])+"_"+str(noUndies[3])+"_"+str(subscript)+str(out_ext)
+#add head
 	with open(filename,'w') as f:
 		sys.stdout = f
 		print("data_")
