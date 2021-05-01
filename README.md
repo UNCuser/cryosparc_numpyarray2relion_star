@@ -2,6 +2,8 @@
 The project will take a standard exported cryosparc_file.cs numpy array out. 
 It will convert the X and Ys to manual_pick.star files for simple conversion of cryoEM particle X and Y picks into relion.
 
-To use run program: "python <script name> <cs file> <subscript> <x-normalization factor> <y-normalization factor>"
+To use run program: 
+"python <script name> <cs file> <subscript> <x-normalization factor> <y-normalization factor>"
+
 Example for K3: python NUMPY_Whisperer.py P54_J83_particles_exported.cs manualpick 5760 409
   
