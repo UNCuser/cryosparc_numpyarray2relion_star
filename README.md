@@ -1,5 +1,5 @@
 # cryosparc_numpyarray2relion_star
-The project will take a standard exported cryosparc_file.cs numpy array out. 
+The project will take a standard exported particles cryosparc_file.cs numpy array out. 
 It will convert the X and Ys to manual_pick.star files for simple conversion of cryoEM particle X and Y picks into relion.
 Output of this script can be dumped into a relion manualpick job folder and particles extracted to start a clean processing tree with your favorite particles from cryosparc.
 
