@@ -1,7 +1,7 @@
 # WAIT... READ THIS..
 
 # Usage: python <script name> <cs file> <subscript> <x-normalization factor> <y-normalization factor>
-# Example for K3: python NUMPY_Whisperer.py P54_J83_particles_exported.cs manualpick 5760 4092 
+# Example for K3: python XYnumpy2star.py P54_J83_particles_exported.cs manualpick 5760 4092 
 # 
 # CAUTION: Sanity checks are not in place -- if the program is run without the args above, undesirable things might happen -- inf loop or crash etc
 
