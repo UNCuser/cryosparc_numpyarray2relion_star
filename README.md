@@ -15,4 +15,4 @@ python script_name   cs_file    subscript  Xnormalization_factor   Ynormalizatio
 >
 >Example for K2: python XYnumpy2star.py P999_J999_particles_exported.cs manualpick 3710 3838
 
-_Note: if XYnumpy2star.py will not run try JVP modified python3 version py3XYnumpy2star.py_
+_Note: if XYnumpy2star.py will not run try JVP modified python3 version py3XYnumpy2star.py You may have to make a python3 enriorment with numpy for this._
