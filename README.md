@@ -11,7 +11,8 @@ _Note: If you want to use motion corrected files from cryosparc instead of from 
 **To use run program
 python script_name   cs_file    subscript  Xnormalization_factor   Ynormalization_factor**
 
->Example for K3: python XYnumpy2star.py P54_J83_particles_exported.cs manualpick 5760 4092***
->Example for K2: python XYnumpy2star.py P999_J999_particles_exported.cs manualpick 3710 3838*
+>Example for K3: python XYnumpy2star.py P54_J83_particles_exported.cs manualpick 5760 4092
+>
+>Example for K2: python XYnumpy2star.py P999_J999_particles_exported.cs manualpick 3710 3838
 
 _Note: if XYnumpy2star.py will not run try JVP modified python3 version py3XYnumpy2star.py_
