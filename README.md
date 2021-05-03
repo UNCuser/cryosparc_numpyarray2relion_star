@@ -8,7 +8,7 @@ To use: (1) Export your favorate particle job from cryosparc (2) cd to the P(roj
 
 #Note: If you want to use motion corrected files from cryosparc instead of from relion, be sure to match manualpick files to also include the cryosparc prefix if present or rename motioncorrected.mrc files to omit CSpresfix.  
 
-**To use run program: **
+**To use run program**:
 >python script_name   cs_file    subscript  Xnormalization_factor   Ynormalization_factor
 
 ***Example for K3: python XYnumpy2star.py P54_J83_particles_exported.cs manualpick 5760 4092***
