@@ -15,7 +15,7 @@ Output of this script can be dumped into a relion manualpick job folder and part
 _Note: If you want to use motion corrected files from cryosparc instead of from relion, be sure to match manualpick files to also include the cryosparc prefix if present or rename motioncorrected.mrc files to omit CSpresfix._  
 
 ## To use run program
-python script_name   cs_file    subscript  Xnormalization_factor   Ynormalization_factor**
+**python script_name   cs_file    subscript  Xnormalization_factor   Ynormalization_factor**
 
 >Example for K3: python XYnumpy2star.py P54_J83_particles_exported.cs manualpick 5760 4092
 >
