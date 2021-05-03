@@ -6,7 +6,7 @@ Output of this script can be dumped into a relion manualpick job folder and part
 ## Download CLI
 >git clone https://github.com/UNCuser/cryosparc_numpyarray2relion_star
 
-To use:
+## To use:
 - **(1)** Export your favorate particle job from cryosparc 
 - **(2)** cd to the P(roject)/jobs/export/P(roject)J(ob)/P(roject)J(ob)-particles
 - **(3)** run as listed below 
