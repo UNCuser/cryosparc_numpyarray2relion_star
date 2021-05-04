@@ -12,8 +12,8 @@ Output of this script can be dumped into a relion manualpick job folder and part
 - **(3)** run as listed below 
 - **(4)** move manualpick.star files to appropriate relion manual pick directory 
 
-_Note: If you want to use motion corrected files from cryosparc instead of from relion, be sure to match manualpick files to also include the cryosparc prefix if present or rename motioncorrected.mrc files to omit CSpresfix._  
-_Note:You may need to flip Y (unhash Y-flip & hash noflip) if using relion motion corrected files._
+_Note1: If you want to use motion corrected files from cryosparc instead of from relion, be sure to match manualpick files to also include the cryosparc prefix if present or rename motioncorrected.mrc files to omit CSpresfix._  
+_Note2: You may need to flip Y (unhash Y-flip & hash noflip) if using relion motion corrected files._
 
 ## To use run program
 **python script_name   cs_file    subscript  Xnormalization_factor   Ynormalization_factor**
