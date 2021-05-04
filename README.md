@@ -16,6 +16,7 @@ _Note1: If you want to use motion corrected files from cryosparc instead of from
 >Example: for file in *.mrc; do ln -s $file ${file#*_} ; done
 
 _Note2: You may need to flip Y (unhash Y-flip & hash noflip) if using relion motion corrected files._
+> add hash to line 36 and remove hash on line 38 to run w/Y flip
 
 ## To run program:
 **python script_name   cs_file    subscript  Xnormalization_factor   Ynormalization_factor**
