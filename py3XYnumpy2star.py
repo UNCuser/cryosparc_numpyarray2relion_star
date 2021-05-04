@@ -33,6 +33,7 @@ for j in range(len(particles)):
 	particle_locs[str(particles[j])]=[]
 
 for j in range(len(particles)):
+	#No flip
 	particle_locs[str(particles[j])].append([X[j]*float(x_norm), Y[j]*float(y_norm)])
 	#Y flip
 	#particle_locs[str(particles[j])].append([X[j]*float(x_norm), (1-Y[j])*float(y_norm)])
