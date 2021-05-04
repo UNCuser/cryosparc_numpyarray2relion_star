@@ -17,7 +17,7 @@ _Note1: If you want to use motion corrected files from cryosparc instead of from
 
 _Note2: You may need to flip Y (unhash Y-flip & hash noflip) if using relion motion corrected files._
 
-## To use run program
+## To run program:
 **python script_name   cs_file    subscript  Xnormalization_factor   Ynormalization_factor**
 
 >Example for K3: python XYnumpy2star.py P54_J83_particles_exported.cs manualpick 5760 4092
