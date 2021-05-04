@@ -1,6 +1,5 @@
 
 # WAIT... READ THIS..
-
 # Usage: python3 <script name> <cs file> <subscript> <x-normalization factor> <y-normalization factor>
 # Example for K3: python3 py3XYnumpy2star.py P954_J83_particles_exported.cs manualpick 5760 4092 
 # 
