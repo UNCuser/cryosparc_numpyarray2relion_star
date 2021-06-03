@@ -13,7 +13,7 @@ Output of this script can be dumped into the appropriate relion manualpick job s
 - **(4)** move manualpick.star files to appropriate relion manual pick directory 
 
 _Note1: If you want to use motion corrected files from cryosparc instead of from relion, be sure to match manualpick files to also include the cryosparc prefix if present or rename motioncorrected.mrc files to omit CSpresfix, as shown below._  
->Example: \for file in *.mrc; do ln -s $file ${file#*_} ; done\
+>Example: for file in \*.mrc\; do ln -s $file \${file#*_}\ ; done
 
 _Note2: You may need to flip Y (unhash Y-flip & hash noflip) if using relion motion corrected files._
 > add hash to line 36 and remove hash on line 38 to run w/Y flip
